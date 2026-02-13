@@ -1,0 +1,12 @@
+.venv/
+.venv-1/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.png
+*.jpg
+*.jpeg
+.ipynb_checkpoints/
