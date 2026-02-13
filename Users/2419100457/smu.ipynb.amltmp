@@ -1,0 +1,104 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "import tensorflow as tf\n",
+        "print(\"TensorFlow Version: \" + tf.__version__)"
+      ],
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "application/vnd.livy.statement-meta+json": {
+              "spark_pool": "cd79b5aa-c06e-4c4c-8a02-0fbc73d1aae4",
+              "statement_id": 6,
+              "statement_ids": [
+                6
+              ],
+              "state": "finished",
+              "livy_statement_state": "available",
+              "spark_jobs": {
+                "numbers": {
+                  "FAILED": 0,
+                  "SUCCEEDED": 0,
+                  "RUNNING": 0,
+                  "UNKNOWN": 0
+                },
+                "jobs": [],
+                "limit": 20,
+                "rule": "ALL_DESC"
+              },
+              "session_id": "1",
+              "normalized_state": "finished",
+              "queued_time": "2026-02-13T12:45:52.6450969Z",
+              "session_start_time": "2026-02-13T12:45:52.6461446Z",
+              "execution_start_time": "2026-02-13T12:49:34.1780086Z",
+              "execution_finish_time": "2026-02-13T12:50:05.3527986Z",
+              "parent_msg_id": "59b41e52-6c17-4a34-8fe3-7956f2f5835a"
+            },
+            "text/plain": "StatementMeta(cd79b5aa-c06e-4c4c-8a02-0fbc73d1aae4, 1, 6, Finished, Available, Finished)"
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": "2026-02-13 12:49:43.117025: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.\nTo enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.\n"
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "TensorFlow Version: 2.15.0\n"
+        }
+      ],
+      "execution_count": 1,
+      "metadata": {
+        "gather": {
+          "logged": 1770987004674
+        }
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "outputs": [],
+      "execution_count": null,
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "synapse_pyspark",
+      "language": "Python",
+      "display_name": "Synapse PySpark"
+    },
+    "language_info": {
+      "name": "python",
+      "version": "3.8.0",
+      "mimetype": "text/x-python",
+      "file_extension": ".py",
+      "pygments_lexer": "ipython",
+      "codemirror_mode": "ipython",
+      "nbconvert_exporter": "python"
+    },
+    "microsoft": {
+      "ms_spell_check": {
+        "ms_spell_check_language": "en"
+      },
+      "host": {
+        "AzureML": {
+          "notebookHasBeenCompleted": true
+        }
+      }
+    },
+    "kernel_info": {
+      "name": "synapse_pyspark"
+    },
+    "nteract": {
+      "version": "nteract-front-end@1.0.0"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
